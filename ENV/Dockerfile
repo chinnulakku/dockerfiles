@@ -1,5 +1,5 @@
 FROM almalinux:8
-RUN yum intall nginx -y 
+RUN yum install nginx -y 
 ENV TRAINING="DEVOPS"\
     TRAINER="Sivakumar"\
     DURATION="120HRS"
